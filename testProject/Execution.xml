@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="Gmail Suite" annotations="JDK" parallel="tests">
+ 
+   
+  <test name="efg">
+     <classes>
+                <class name = "testProject.TCAddNewCustomer2" />
+                <class name = "testProject.YahooHomePage2" />
+                <class name = "testProject.TCLoginVerify2" />
+                <!-- class name = "testing.TCButtonActions2" /-->
+                
+                <!--class name = "testing.TCButtonActions2" /-->
+                
+
+     </classes>
+   </test>
+</suite>
